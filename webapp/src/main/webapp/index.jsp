@@ -1,37 +1,65 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<!--excited about my second homework site-->
+<html>
+<head>
+	<title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+	<meta charset="utf-8">  
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" zoom="1.0">
+	<!--for making the website more responsive-->
+  	<meta http-equiv="X-UA-compatible" content="ie=">
+  	<!--for Favicon-->
+  	<link rel="shortcut icon" type="image/png" href="https://img.techpowerup.org/200517/prodipto.png">
+  	<!--for CSS-->
+  	<link rel="stylesheet" type="text/css" href="netflixstyles.css">
+	<!--link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css"/ -->
+</head>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+<body>
+	<header class="showcase">
+		<div class="showcase-top">
+			<p>Best of the Week</p>
+		</div>
+		 
+		<nav>
+			<a href="#" class="btn btn-m"> Sign in <i class="fas fa-chevron-right btn-icon"></i>
+			</a>
+		</nav>
+		<!--inside the following div we could write : style="background-image: url('https://img.techpowerup.org/200613/netflix-backgroung-image.jpg');"-->
+		<div class="showcase-content" >
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<h1>Unlimited movies, TV<br>shows and more...</h1>
+			<br><br>
+			<div class="search-box">
+			<input class="search-txt" type="text" name="box" placeholder="Email address."><a href="#" class="btn  btn-x1">TRY IT NOW<i class="fas fa-chevron-right btn-icon"></i>
+			</a>			
+			</div>
+		</div>
+				
+		<div>
+			<h3>Ready to watch?  Enter your Email to create or restart your membership. </h3>
+			<br><br>				
+		</div>
+	</header>
+			   
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+	<div class="enjoy-tv">
+		<div>
+			<h2> Enjoy on your TV. </h2>
+			<p>Watch on your smart-TV, PlayStation,<br>XBox, ChromeCast, AppleTV, blu-<br>ray players and more.</p>
+		</div>
+		<img src="https://t.ctcdn.com.br/hxMIOa4911i56IHic6sETQtHCBg=/1270x714/smart/i541471.jpeg">
+	</div>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+	<div class="Watch-offline">
+		<div>
+			<h2>Download your shows<br>to watch offline.</h2>
+			<p>Save your favourites easily and<br>always have something to watch.</p>
+		</div>
+		<img src="https://play-lh.googleusercontent.com/4DOuvVtWKp_dcvPvueS-g3tUQw08AtSgumH1b7iNlX4YkcwUyBcAsKWIljaDjxT3hKc=w526-h296-rw">
+	</div>
 
-   <h1> Thankyou, Happy Learning </h1>
+	<div class="watch-everywhere">
+		<h2>Watch Everywhere.</h2>
+		<p>Stream unlimited movies and TV<br>shows on your phon, tablet, laptop,<br>and TV.</p>
+	</div>
 
-  
-</form>
